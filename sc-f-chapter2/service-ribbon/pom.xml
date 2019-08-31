@@ -11,7 +11,6 @@
     <name>service-ribbon</name>
     <description>Demo project for Spring Boot</description>
 
-
     <parent>
         <groupId>com.forezp</groupId>
         <artifactId>sc-f-chapter2</artifactId>
@@ -32,7 +31,5 @@
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
     </dependencies>
-
-
 
 </project>

@@ -18,8 +18,8 @@ public class HelloControler {
     @Autowired
     HelloService helloService;
 
-    @GetMapping(value = "/hi")
-    public String hi(@RequestParam String name) {
+    @GetMapping(value = "/hello")
+    public String hello(@RequestParam String name) {
         return helloService.hiService( name );
     }
 }
