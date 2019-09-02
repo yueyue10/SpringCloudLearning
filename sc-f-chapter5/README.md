@@ -7,7 +7,7 @@ https://blog.csdn.net/forezp/article/details/81041012
 
 在微服务架构中，需要几个基础的服务治理组件，包括服务注册与发现、服务消费、负载均衡、断路器、智能路由、配置管理等，由这几个基础组件相互协作，共同组建了一个简单的微服务系统。一个简答的微服务系统如下图：
 
-![ic_zuul.png](https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter5/ic_zuul.png)
+![ic_zuul.png](https://github.com/yueyue10/SpringCloudLearning/blob/master/sc-f-chapter5/ic_zuul.png?raw=true)
 
 在Spring Cloud微服务系统中，一种常见的负载均衡方式是，客户端的请求首先经过负载均衡（zuul、Ngnix），再到达服务网关（zuul集群），然后再到具体的服。
 
