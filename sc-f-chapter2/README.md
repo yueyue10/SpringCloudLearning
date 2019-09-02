@@ -64,4 +64,4 @@ ribbon简介
 项目架构：
 ---
 
-![ic_ribbon.png](https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter2/ic_ribbon.png)
+![ic_ribbon.png](https://github.com/yueyue10/SpringCloudLearning/blob/master/sc-f-chapter2/ic_ribbon.png?raw=true)
