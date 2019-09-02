@@ -6,7 +6,7 @@
 	<groupId>com.forezp</groupId>
 	<artifactId>config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<name>config-server</name>
 	<description>Demo project for Spring Boot</description>
