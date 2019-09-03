@@ -17,7 +17,6 @@
     </parent>
 
     <modules>
-
         <module>service-hi</module>
         <module>service-miya</module>
     </modules>
