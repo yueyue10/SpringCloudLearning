@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   profiles:
-    active: query_route
+    active: cookie_route
 
 ---
 spring:
