@@ -16,6 +16,7 @@ SpringCloud学习
 | sc-f-chapter8         |         [ 第八篇: 消息总线(Spring Cloud Bus)(Finchley版本) ][8]            |
 | sc-f-chapter9         |         [ 第九篇: 服务链路追踪(Spring Cloud Sleuth)(Finchley版本)) ][9]            |
 | sc-f-chapter10         |         [ 第十篇: 高可用的服务注册中心(Finchley版本) ][10]            |
+| sc-f-chapter12         |         [ 第十二篇: 断路器监控(Hystrix Dashboard)(Finchley版本) ][12]            |
 
 [1]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter1
 [2]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter2
@@ -27,5 +28,6 @@ SpringCloud学习
 [8]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter8
 [9]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter9
 [10]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter10
+[12]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter12
 
 
