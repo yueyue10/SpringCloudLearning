@@ -13,6 +13,7 @@ SpringCloud学习
 | sc-f-chapter5         |         [ 第五篇: 路由网关(zuul)(Finchley版本) ][5]            |
 | sc-f-chapter6         |         [ 第六篇: 分布式配置中心(Spring Cloud Config)(Finchley版本) ][6]            |
 | sc-f-chapter7         |         [ 第七篇: 高可用的分布式配置中心(Spring Cloud Config)(Finchley版本) ][7]            |
+| sc-f-chapter8         |         [ 第八篇: 消息总线(Spring Cloud Bus)(Finchley版本) ][8]            |
 
 [1]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter1
 [2]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter2
@@ -21,6 +22,7 @@ SpringCloud学习
 [5]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter5
 [6]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter6
 [7]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter7
+[8]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter8
 
 
 
