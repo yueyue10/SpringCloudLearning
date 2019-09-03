@@ -47,3 +47,6 @@ public class Application {
     // end::fallback[]
 }
 
+//curl --dump-header - --header Host:www.hystrix.com http://localhost:8080/delay/3
+//curl --header Host:www.hystrix.com http://localhost:8080/delay/3
+//curl --header Host:www.hystrix.com http://localhost:8080
