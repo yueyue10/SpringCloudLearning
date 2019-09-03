@@ -1,3 +1,6 @@
+spring:
+   profiles:
+      active: peer2
 ---
 spring:
    profiles: peer1
@@ -7,6 +10,8 @@ eureka:
    instance:
       hostname: peer1
    client:
+      register-with-eureka: false #表示是否注册Eureka服务器,因为自身作为服务注册中心，所以为false
+      fetch-registry: false #是否从eureka上获取注册信息,表明自己是一个server
       serviceUrl:
          defaultZone: http://peer2:8769/eureka/
 
@@ -19,5 +24,7 @@ eureka:
    instance:
       hostname: peer2
    client:
+      register-with-eureka: false #表示是否注册Eureka服务器,因为自身作为服务注册中心，所以为false
+      fetch-registry: false #是否从eureka上获取注册信息,表明自己是一个server
       serviceUrl:
          defaultZone: http://peer1:8761/eureka/
