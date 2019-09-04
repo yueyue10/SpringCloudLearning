@@ -6,7 +6,7 @@ spring:
     name: sc-gateway-server
   cloud:
     gateway:
-      discovery:
+      discovery: # 开启服务注册和发现的功能
         locator:
           enabled: false
           lowerCaseServiceId: true
@@ -14,7 +14,7 @@ spring:
       - id: service-hi
         uri: lb://SERVICE-HI
         predicates:
-          - Path=/demo/**
+          - Path=/demo/** # 将以/demo/**开头的请求都会转发到uri为lb://SERVICE-HI的地址上
         filters:
           - StripPrefix=1
           - RequestTime=true

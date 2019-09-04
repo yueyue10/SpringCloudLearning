@@ -22,6 +22,7 @@ SpringCloud学习
 | sc-f-gateway-predicate          |         [第十五篇: Spring Cloud Gateway 之Predict篇][15]            |
 | sc-f-gateway-filter          |         [第十六篇: spring cloud gateway之filter篇][16]            |
 | sc-f-gateway-limiter          |         [第十七篇: Spring Cloud Gateway 之限流篇][17]            |
+| sc-f-gateway-cloud          |         [第十八篇: spring cloud gateway之服务注册与发现][18]            |
 
 [1]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter1
 [2]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter2
@@ -39,5 +40,6 @@ SpringCloud学习
 [15]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-predicate
 [16]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-filter
 [17]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-limiter
+[18]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-cloud
 
 
