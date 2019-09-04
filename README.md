@@ -20,6 +20,7 @@ SpringCloud学习
 | sc-f-chapter13         |         [ 第十三篇: 断路器聚合监控(Hystrix Turbine)(Finchley版本) ][13]            |
 | sc-f-gateway-first-sight          |         [第十四篇: Spring Cloud Gateway初体验][14]            |
 | sc-f-gateway-predicate          |         [第十五篇: Spring Cloud Gateway 之Predict篇][15]            |
+| sc-f-gateway-filter          |         [第十六篇: spring cloud gateway之filter篇][16]            |
 
 [1]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter1
 [2]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter2
@@ -35,5 +36,6 @@ SpringCloud学习
 [13]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-chapter13
 [14]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-first-sight
 [15]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-predicate
+[16]:https://github.com/yueyue10/SpringCloudLearning/tree/master/sc-f-gateway-filter
 
 

@@ -6,5 +6,5 @@ package org.springframework.cloud.gateway.filter.factory;
  * @author fangzhipeng
  * create 2018-12-04
  **/
-public abstract class AbstractChangeRequestUriGatewayFilterFactory extends AbstractGatewayFilterFactory {
+public abstract class AbstractChangeRequestUriGatewayFilterFactory1 extends AbstractGatewayFilterFactory {
 }

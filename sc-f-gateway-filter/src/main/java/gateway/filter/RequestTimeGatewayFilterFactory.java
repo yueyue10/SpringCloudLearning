@@ -1,4 +1,4 @@
-package gateway;
+package gateway.filter;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -53,11 +53,6 @@ public class RequestTimeGatewayFilterFactory extends AbstractGatewayFilterFactor
         };
     }
 
-
-
-
-
-
     public static class Config {
 
         private boolean withParams;
@@ -65,7 +60,6 @@ public class RequestTimeGatewayFilterFactory extends AbstractGatewayFilterFactor
         public boolean isWithParams() {
             return withParams;
         }
-
         public void setWithParams(boolean withParams) {
             this.withParams = withParams;
         }

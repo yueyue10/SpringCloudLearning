@@ -1,4 +1,4 @@
-package gateway;
+package gateway.filter;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -19,10 +19,8 @@ public class RequestTimeFilter implements GatewayFilter, Ordered {
     private static final Log log = LogFactory.getLog(GatewayFilter.class);
     private static final String REQUEST_TIME_BEGIN = "requestTimeBegin";
 
-
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-
         exchange.getAttributes().put(REQUEST_TIME_BEGIN, System.currentTimeMillis());
         return chain.filter(exchange).then(
                 Mono.fromRunnable(() -> {
@@ -32,7 +30,6 @@ public class RequestTimeFilter implements GatewayFilter, Ordered {
                     }
                 })
         );
-
     }
 
     @Override
