@@ -13,19 +13,22 @@ import reactor.core.publisher.Mono;
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run( Application.class, args );
+        SpringApplication.run(Application.class, args);
     }
 
+    //IP限流
     @Bean
     public HostAddrKeyResolver hostAddrKeyResolver() {
         return new HostAddrKeyResolver();
     }
 
+    //接口限流
     @Bean
     public UriKeyResolver uriKeyResolver() {
         return new UriKeyResolver();
     }
 
+    // 用户限流
     @Bean
     KeyResolver userKeyResolver() {
         return exchange -> Mono.just(exchange.getRequest().getQueryParams().getFirst("user"));
